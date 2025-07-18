@@ -1,0 +1,16 @@
+body{
+    background-image: url(scine.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(244, 247, 246);
+    font-style: italic;
+    font-weight: 600;
+}
+input{
+    box-shadow: 0 0 10px rgba(238, 80, 32, 0.8);
+}
+button{
+    box-shadow: 0 0 10px rgba(49, 219, 7, 0.7);
+    border-radius: 40px  30%;
+}

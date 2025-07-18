@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Islamic Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="light">
+    <button id="dark"><i>DARK MODE</i></button>
+    <section id="register">
+    <h1><u>REGISTRATION FORM</u></h1>
+    <form id="form">
+        <fieldset id="one">
+            <label for="name">NAME:</label>
+            <input id="name" type="text" required placeholder="enter you're name here"><br>
+              <label for="Lname">LAST-NAME:</label>
+            <input id="Lname" type="text" required placeholder="enter you're Last-name here"><br>
+              <label for="email">EMAIL:</label>
+            <input id="email" type="email" required placeholder="enter you're email here"><br>
+            <label for="password">password:</label>
+            <input id="password" type="password" required placeholder="enter you're password here" minlength="8"><br>  <br>
+            <label for="choose">Choose a topic :</label>
+            <select id="choose" type="select">
+                <option value="islamic">Islamic</option>
+                <option value="science">Science</option>
+                <option value="math">Mathematics</option>
+            
+            </select><br>
+           <br> <button type="submit">SUBMIT</button>
+        </fieldset>
+    </form>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

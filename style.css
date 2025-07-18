@@ -1,0 +1,26 @@
+.bra{
+    background-color: aqua;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+button{
+    background-color: darkcyan;
+    color: bisque;
+    border-radius: 15%;
+}
+h1{
+    text-align: center;
+}
+#bbb.correct{
+    background-color: green;
+}
+#bbb.wrong{
+    background-color: red;
+}
+body{
+    background-image: url(baaaaa.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
