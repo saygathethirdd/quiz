@@ -1,4 +1,4 @@
-const coun=0;
+let coun=0;
 let numberOf=10;
 const form=document.getElementById("form");
 form.addEventListener("submit",function(event){
